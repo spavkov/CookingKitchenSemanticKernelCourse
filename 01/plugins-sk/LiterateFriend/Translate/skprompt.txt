@@ -1,6 +1,4 @@
-Translate the input below into {{$language}}
-
-MAKE SURE YOU ONLY USE {{$language}}.
+Translate the input below into {{$language}} and MAKE SURE YOU ONLY USE {{$language}}!
 
 {{$input}}
 

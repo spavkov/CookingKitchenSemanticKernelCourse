@@ -39,7 +39,7 @@ async def main():
     planner = SequentialPlanner(kernel, SequentialPlannerConfig(excluded_skills=["this"]))
 
     ask = """
-    Tomorrow is Valentine's day. I need to come up with a poem. Translate the poem to French.
+    Tomorrow is Mother's day. I need to come up with a poem for my mother. My mothers name is Maria. Translate the poem to Serbian.
     """
 
     plan = await planner.create_plan_async(goal=ask)

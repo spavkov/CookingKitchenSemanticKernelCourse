@@ -30,18 +30,16 @@ async def main():
     print("A semantic function for summarization has been registered.");
 
     sk_input = """
-    Let me illustrate an example. Many weekends, I drive a few minutes from my house to a local pizza store to buy 
-    a slice of Hawaiian pizza from the gentleman that owns this pizza store. And his pizza is great, but he always 
-    has a lot of cold pizzas sitting around, and every weekend some different flavor of pizza is out of stock. 
-    But when I watch him operate his store, I get excited, because by selling pizza, he is generating data. 
-    And this is data that he can take advantage of if he had access to AI.
+    You can use the following tips to help you become a better programmer:
 
-    AI systems are good at spotting patterns when given access to the right data, and perhaps an AI system could spot 
-    if Mediterranean pizzas sell really well on a Friday night, maybe it could suggest to him to make more of it on a 
-    Friday afternoon. Now you might say to me, "Hey, Andrew, this is a small pizza store. What's the big deal?" And I 
-    say, to the gentleman that owns this pizza store, something that could help him improve his revenues by a few 
-    thousand dollars a year, that will be a huge deal to him.
-    """;
+    Write each line of code multiple times. Repetition can reduce coding errors and help you learn to recognize similarities among codes. Some programmers also use the rule of three when coding, which means they write each code sequence three times to decide when to delete code that's too similar.
+    Practice code in different environments. If you're familiar with writing code for a certain industry, try coding in a different industry. You might also practice code beyond school or work assignments and work on projects you're less familiar with to help improve your skills.
+    Practice unit testing. Consider practicing unit testing, which is the process of checking a small piece of code and identifying how it affects other areas of code. This method can also help with identifying coding errors before finishing a project.
+    Improve soft programming skills. Improving your soft skills can help you develop your programming style and work with other programmers. A few important soft programming skills include teamwork, communication and project management.
+    Sign up for newsletters. Staying informed on the latest trends and updates in the industry is an important part of becoming a better programmer. Newsletters are one way you can learn about relevant industry changes.
+    Read code. Becoming a better programmer involves both practicing code and reading code to learn how to better identify broken code. Inspect the source code of your favorite websites or review previous code you've written.
+    Rewrite your code when you learn something new. As soon as you complete a programming class or expand your coding skills to include a new language, consider rewriting previous code. This may help you identify techniques you can improve.
+    Contribute to the open-source community. Contributing to an open-source community, or collection of programming contributors, can allow you to assist other programmers and develop your programming skills. It also allows other programmers to view your code and offer you specific feedback.    """;
 
     ## summary_result = await kernel.run_async(summary_function, input_str=sk_input)
     ## above is one indirect way to invoke the function

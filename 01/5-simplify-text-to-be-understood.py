@@ -74,7 +74,7 @@ async def main():
 
     my_context['input'] = swot_interview
     my_context['domain'] = "construction management"
-    my_context['level'] = "child in first grade of primary school"
+    my_context['level'] = "preschool child that does not know anything about business"
 
     result = await kernel.run_async(shift_domain_function, shift_reading_level_function, input_context=my_context)
 
